@@ -1,7 +1,7 @@
-window.onload = function start()
+window.onload = function go()
 {
     let intro = new Audio ('/music/intro2.ogg');
-    intro.play();
+    intro.play(); 
 
 }
 
@@ -29,7 +29,7 @@ function start()
 		let imgCard = document.getElementById("table").getElementsByTagName("img");	
 		let chaq = new Audio ("/music/chaq.ogg");
 		let ok = new Audio ("/music/good.ogg");
-		let no = new Audio ("/music/no.ogg"); 
+		let no = new Audio ("/music/no.ogg");
 		let win = new Audio ("/music/congratulation.ogg");
 
 	
@@ -39,7 +39,9 @@ function start()
 			imgCard[i].onclick=function(){//Ajout d'un focus à imgCard et on déclenche la fonction check à chaque click
 				check(this.noCard);
 			}                      
-		}
+        }
+        
+        init();
 // Décélaration des différentes fonctions dont on aura besoin.
 		function init(){//Random pour mélanger les cartes
 			for(let position = receptCard.length-1; position >= 1; position --){
@@ -88,7 +90,7 @@ function start()
 						if(score === 0)
 						{
 							alert (' Perdu recommence');
-							go();
+							location.reload();
 						};
 					}
 					
