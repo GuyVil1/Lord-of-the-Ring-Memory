@@ -1,6 +1,6 @@
 window.onload = function go()
 {
-    let intro = new Audio ('/music/intro2.ogg');
+    let intro = new Audio ('music/intro2.ogg');
     intro.play(); 
 
 }
