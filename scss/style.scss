@@ -2,7 +2,7 @@
 
 body{
 
-    background-image: url('/img/bscreen.jpg');
+    background-color: black;
     background-size: cover; 
     animation: bodintro 4s 13s forwards;
 }
@@ -259,7 +259,7 @@ body{
 
 @keyframes bodintro {
 
-	0% {background-image: url("/img/bscreen.jpg");}
+	0% {background-color: black;}
 	90%{background-image: url("/img/background.jpg");}
 	100%{background-image: url("/img/background.jpg");}
 }
