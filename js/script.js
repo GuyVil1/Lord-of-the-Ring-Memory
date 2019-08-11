@@ -27,10 +27,10 @@ function start()
 		let newStates=0;// pour attribuer un nouveau statut a une carte (visible, de dos, ou retirée)
 		let score = 10;
 		let imgCard = document.getElementById("table").getElementsByTagName("img");	
-		let chaq = new Audio ("/music/chaq.ogg");
-		let ok = new Audio ("/music/good.ogg");
-		let no = new Audio ("/music/no.ogg");
-		let win = new Audio ("/music/congratulation.ogg");
+		let chaq = new Audio ("./music/chaq.ogg");
+		let ok = new Audio ("./music/good.ogg");
+		let no = new Audio ("./music/no.ogg");
+		let win = new Audio ("./music/congratulation.ogg");
 
 	
 
