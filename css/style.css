@@ -207,12 +207,12 @@ body { background-color: black; background-size: cover; -webkit-animation: bodin
     display: none; } }
 
 @-webkit-keyframes bodintro { 0% { background-color: black; }
-  90% { background-image: url("/img/background.jpg"); }
-  100% { background-image: url("/img/background.jpg"); } }
+  90% { background-image: url("./img/background.jpg"); }
+  100% { background-image: url("./img/background.jpg"); } }
 
 @keyframes bodintro { 0% { background-color: black; }
-  90% { background-image: url("/img/background.jpg"); }
-  100% { background-image: url("/img/background.jpg"); } }
+  90% { background-image: url("./img/background.jpg"); }
+  100% { background-image: url("./img/background.jpg"); } }
 
 .titre { margin-top: -30em; opacity: 0; -webkit-animation: opacity1 2s 13s ease-in forwards; animation: opacity1 2s 13s ease-in forwards; }
 
