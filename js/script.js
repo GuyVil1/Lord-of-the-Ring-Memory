@@ -27,10 +27,10 @@ function start()
 		let newStates=0;// pour attribuer un nouveau statut a une carte (visible, de dos, ou retirée)
 		let score = 10;
 		let imgCard = document.getElementById("table").getElementsByTagName("img");	
-		let chaq = new Audio ("./music/chaq.ogg");
-		let ok = new Audio ("./music/good.ogg");
-		let no = new Audio ("./music/no.ogg");
-		let win = new Audio ("./music/congratulation.ogg");
+		let chaq = new Audio ("/music/chaq.ogg");
+		let ok = new Audio ("/music/good.ogg");
+		let no = new Audio ("/music/no.ogg");
+		let win = new Audio ("/music/congratulation.ogg");
 
 	
 
@@ -55,10 +55,10 @@ function start()
 		function updatetable(noCard){//Mise à jour de notre tableau de jeu
 			switch(statesCard[noCard]){
 				case 0://valeur 0 on ne touche à rien, on réaffiche le dos de la carte
-					imgCard[noCard].src = "./img/empty.jpg";
+					imgCard[noCard].src = "/img/empty.jpg";
 					break;
 				case 1://Valeur 1, carte à afficher, src= chemine de l'image + Le nunméro dans le tableau . extension jpg.
-					imgCard[noCard].src = "./img/a"+receptCard[noCard]+".jpg";
+					imgCard[noCard].src = "/img/a"+receptCard[noCard]+".jpg";
 					break;
 				case -1://valeur -1 dans le cadres des images trouvées, on les retire du tableau
 					imgCard[noCard].style.visibility = "hidden";

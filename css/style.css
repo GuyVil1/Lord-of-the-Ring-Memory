@@ -1,4 +1,4 @@
-body { background-image: url("./img/bscreen.jpg"); background-size: cover; -webkit-animation: bodintro 4s 13s forwards; animation: bodintro 4s 13s forwards; }
+body { background-color: black; background-size: cover; -webkit-animation: bodintro 4s 13s forwards; animation: bodintro 4s 13s forwards; }
 
 .title { margin-left: auto; margin-right: auto; margin-top: 13em; text-align: center; -webkit-animation: scale-out-ver-bottom 2s 10s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; animation: scale-out-ver-bottom 2s 10s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
@@ -206,13 +206,13 @@ body { background-image: url("./img/bscreen.jpg"); background-size: cover; -webk
     opacity: 1;
     display: none; } }
 
-@-webkit-keyframes bodintro { 0% { background-image: url("./img/bscreen.jpg"); }
-  90% { background-image: url("./img/background.jpg"); }
-  100% { background-image: url("./img/background.jpg"); } }
+@-webkit-keyframes bodintro { 0% { background-color: black; }
+  90% { background-image: url("/img/background.jpg"); }
+  100% { background-image: url("/img/background.jpg"); } }
 
-@keyframes bodintro { 0% { background-image: url("/img/bscreen.jpg"); }
-  90% { background-image: url("./img/background.jpg"); }
-  100% { background-image: url("./img/background.jpg"); } }
+@keyframes bodintro { 0% { background-color: black; }
+  90% { background-image: url("/img/background.jpg"); }
+  100% { background-image: url("/img/background.jpg"); } }
 
 .titre { margin-top: -30em; opacity: 0; -webkit-animation: opacity1 2s 13s ease-in forwards; animation: opacity1 2s 13s ease-in forwards; }
 
