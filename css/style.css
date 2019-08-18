@@ -1,4 +1,4 @@
-body { background-color: black; background-size: cover; -webkit-animation: bodintro 4s 13s forwards; animation: bodintro 4s 13s forwards; }
+body { background-size: cover; -webkit-animation: bodintro 4s 13s forwards; animation: bodintro 4s 13s forwards; }
 
 .title { margin-left: auto; margin-right: auto; margin-top: 13em; text-align: center; -webkit-animation: scale-out-ver-bottom 2s 10s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; animation: scale-out-ver-bottom 2s 10s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
